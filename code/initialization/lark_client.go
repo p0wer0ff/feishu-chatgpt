@@ -6,7 +6,7 @@ import (
 )
 
 var larkClient *lark.Client
-var FeishuBaseUrl = "https://open.f.xiaomi.cn"
+var FeishuBaseUrl = "https://open.f.mioffice.cn"
 
 func LoadLarkClient(config Config) {
 	customBaseUrlOption := func(cfg *larkcore.Config) {
